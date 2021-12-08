@@ -1,6 +1,3 @@
-from collections import Counter
-import operator
-
 with open("in.txt", "r") as f:
     lines = [line for line in f.readlines()]
     lines = [(line.split("|")[0].strip(), line.split("|")[1].strip()) for line in lines]
