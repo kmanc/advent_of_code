@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 
 with open("in.txt", "r") as f:
   lines = [line.strip() for line in f.readlines()]
