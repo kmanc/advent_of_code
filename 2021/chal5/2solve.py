@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 import sys
 
 with open("in.txt", "r") as f:
